@@ -86,30 +86,3 @@ s = 'Budapest is the capital of Hungary.'
 
 # Ide írd a kódodat!
 
-# BOOLEAN OPERATIONS
-# ==========================================
-# A lenti instrukciókat írd át Python-nal Igen/Nem értéket adó kifejezésekké.
-
-# 1. city1 hosszabb, mint city2
-
-# Ide írd a kódodat!
-
-# 2. city1 és city2 hossza egyenlő num1 a harmadikonnal
-
-# Ide írd a kódodat!
-
-# 3. igaz vagy hamis
-
-# Ide írd a kódodat!
-
-# 4. num1 a négyzeten nagyobb, mint num kettő egész szám része
-
-# Ide írd a kódodat!
-
-# 5. negatív num1 a négyzeten egyenlő num1 a négyzetennel
-
-# Ide írd a kódodat!
-
-# 6. negatív num2 a harmadikon egyenlő num2 a harmadikkonnal
-
-# Ide írd a kódodat!

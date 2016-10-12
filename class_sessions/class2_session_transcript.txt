@@ -1,0 +1,194 @@
+﻿=======================================
+Órai kód (2016. október 12.)
+=======================================
+
+In [1]: 1
+Out[1]: 1
+
+In [2]: type(0)
+Out[2]: int
+
+In [3]: 3,24
+Out[3]: (3, 24)
+
+In [4]: 3.1415
+Out[4]: 3.1415
+
+In [5]: type(3.1426)
+Out[5]: float
+
+In [6]: type(3,24)
+Traceback (most recent call last):
+
+  File "<ipython-input-6-0bd9ae5a15c0>", line 1, in <module>
+    type(3,24)
+
+TypeError: type() takes 1 or 3 arguments
+
+
+In [7]: 10/3
+Out[7]: 3.3333333333333335
+
+In [8]: print('%.50f' % (10/3))
+3.33333333333333348136306995002087205648422241210938
+
+In [9]: 4+6
+Out[9]: 10
+
+In [10]: type(4+6)
+Out[10]: int
+
+In [11]: type(4+6.0)
+Out[11]: float
+
+In [12]: type(4/6)
+Out[12]: float
+
+In [13]: 4/6
+Out[13]: 0.6666666666666666
+
+In [14]: 4//6
+Out[14]: 0
+
+In [15]: type(4//6)
+Out[15]: int
+
+In [16]: 4%6
+Out[16]: 4
+
+In [17]: 2**2
+Out[17]: 4
+
+In [18]: 2**3
+Out[18]: 8
+
+In [19]: (3+2) *2
+Out[19]: 10
+
+In [20]: 3 + 2 * 2
+Out[20]: 7
+
+In [21]: int(6/5)
+Out[21]: 1
+
+In [22]: 6/5
+Out[22]: 1.2
+
+In [23]: float(1)
+Out[23]: 1.0
+
+In [24]: x = 4
+
+In [25]: x
+Out[25]: 4
+
+In [26]: x + 3
+Out[26]: 7
+
+In [27]: float(x)
+Out[27]: 4.0
+
+In [28]: x
+Out[28]: 4
+
+In [29]: x = flaot(4)
+Traceback (most recent call last):
+
+  File "<ipython-input-29-3ad8fb151bfc>", line 1, in <module>
+    x = flaot(4)
+
+NameError: name 'flaot' is not defined
+
+
+In [30]: x = floatt(4)
+Traceback (most recent call last):
+
+  File "<ipython-input-30-525b5e4a6b17>", line 1, in <module>
+    x = floatt(4)
+
+NameError: name 'floatt' is not defined
+
+
+In [31]: x = float(4)
+
+In [32]: x=float(4)
+
+In [33]: x
+Out[33]: 4.0
+
+In [34]: x = 4
+
+In [35]: x = float(x)
+
+In [36]: x
+Out[36]: 4.0
+
+In [37]: x += 3
+
+In [38]: x = x + 3
+
+In [39]: s = 'hello!'
+
+In [40]: len(s)
+Out[40]: 6
+
+In [41]: s[1]
+Out[41]: 'e'
+
+In [42]: s[:2]
+Out[42]: 'he'
+
+In [43]: s[0]
+Out[43]: 'h'
+
+In [44]: s[0:3]
+Out[44]: 'hel'
+
+In [45]: s[-1]
+Out[45]: '!'
+
+In [46]: s[-3:-1]
+Out[46]: 'lo'
+
+In [47]: '\''
+Out[47]: "'"
+
+In [48]: print(s)
+hello!
+
+In [49]: s + ' csoport'
+Out[49]: 'hello! csoport'
+
+In [50]: s + 'csoport'
+Out[50]: 'hello!csoport'
+
+In [51]: s * 2
+Out[51]: 'hello!hello!'
+
+In [52]: s2 = 'ELTE'
+
+In [53]: s
+Out[53]: 'hello!'
+
+In [54]: s[:-1]
+Out[54]: 'hello'
+
+In [55]: s[:-1] + s2
+Out[55]: 'helloELTE'
+
+In [56]: ''
+Out[56]: ''
+
+In [57]: s3 = ''
+
+In [58]: len(s3)
+Out[58]: 0
+
+In [59]: type(s3)
+Out[59]: str
+
+In [60]: s
+Out[60]: 'hello!'
+
+In [61]: s[::2]
+Out[61]: 'hlo'
