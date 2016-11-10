@@ -9,7 +9,7 @@
 # DEFINING FUNCTIONS
 #==============================
 
-# 2. Írj egy funkciót, amely az alapján ad vissza True/False értéket, hogy a bemeneti két string paraméter hossza
+# 1. Írj egy funkciót, amely az alapján ad vissza True/False értéket, hogy a bemeneti két string paraméter hossza
 # egyenlő vagy sem!
 # A funkció neve legyen is_equal!
 # A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
@@ -19,7 +19,7 @@
 
 
 
-# 3. Írj egy olyan funkciót, amely fahrenheitről vált celsiusra!
+# 2. Írj egy olyan funkciót, amely fahrenheitről vált celsiusra!
 # A funkció neve legyen fahr2celsius!
 # A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
 
@@ -27,7 +27,7 @@
 # Ide írd a kódodat!
 
 
-# 4. Írj egy olyan funkciót, amely egy string utolsó x karakterét adja vissza! Az x egy olyan szám,
+# 3. Írj egy olyan funkciót, amely egy string utolsó x karakterét adja vissza! Az x egy olyan szám,
 # amit a felhasználó inputkét ad meg. Tehát ha a funkció a 'hello Budapest' string-et és a 4-es számot kapja,
 # akkor a 'pest' értéket adja vissza!
 # A funkció neve legyen last_n_char!
@@ -75,7 +75,7 @@ temp_feedback(10.5)
         
 # A fentiek alapják, aki elég kedvet érez magában, az próbálkozhat az 5. feladattal is. DE EZ TERMÉSZETESEN NEM KÖTELEZŐ!
 
-# 5. Írj egy olyan funkciót, amely két string bemeneti paraméterről megállapítja, hogy melyik a hosszabb és annak
+# 4. Írj egy olyan funkciót, amely két string bemeneti paraméterről megállapítja, hogy melyik a hosszabb és annak
 # megfelő feedback-et ad a felhasználónak.
 # Például ha a funkció a "kutya" és a "macska" szavakat kapja, a következőt nyomtatja a konzolra: 'A(z) "macska" szó
 # hosszabb mint a(z) "kutya" szó.'
