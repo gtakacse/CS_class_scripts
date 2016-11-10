@@ -11,6 +11,7 @@
 
 # 2. Írj egy funkciót, amely az alapján ad vissza True/False értéket, hogy a bemeneti két string paraméter hossza
 # egyenlő vagy sem!
+# A funkció neve legyen is_equal!
 # A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
 
 
@@ -19,6 +20,7 @@
 
 
 # 3. Írj egy olyan funkciót, amely fahrenheitről vált celsiusra!
+# A funkció neve legyen fahr2celsius!
 # A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
 
 
@@ -28,6 +30,7 @@
 # 4. Írj egy olyan funkciót, amely egy string utolsó x karakterét adja vissza! Az x egy olyan szám,
 # amit a felhasználó inputkét ad meg. Tehát ha a funkció a 'hello Budapest' string-et és a 4-es számot kapja,
 # akkor a 'pest' értéket adja vissza!
+# A funkció neve legyen last_n_char!
 # A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
 
 
@@ -79,8 +82,9 @@ temp_feedback(10.5)
 # Ha funkció egyenlő hosszú szavakat kap, a következő üzenetet nyomtatja: 'A megadott szavak egyenlő hosszúak.'
 # Ha a megadott input-ok bármelyike nem string típusú, a következő üzenetet adja vissza: 'A funkció két string típusú
 #  argumentumot követel. Kérem string értékeket adjon meg!'
-# A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve a funkció után írj néhány olyan teszt
-# példát, amelyek bizonyítják, hogy a funkció jól működik!
+# A funkció neve legyen longer!
+# A funkciónak tartalmaznia kell egy konvencionális docstring-et is, illetve ne felejtsd el a funkciódat tesztelni sem!
+
 
 
 # Ide írd a kódodat!
