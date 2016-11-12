@@ -26,7 +26,7 @@ def find_file():
 def load_modul(file):
     try:
         modul = importlib.import_module(file[:-3])
-        print('Trying to load the hw4 file\n' + '='*56)
+        print('Trying to load the homework file with the structure hw4_name.py\n' + '='*56)
         return modul
     except ImportError:
         print('The {} function cannot be found in {}'.format(file))
@@ -93,8 +93,8 @@ def test_func4(modul):
             print('Superb! You are a real hacker! You have really mastered this matterial. Great job!')
         else:
             print('Almost there. Keep trying!')
-    except ImportError:
-        print('Function is not found.')
+    except AttributeError:
+        print('Function of the optional exercise is not found.')
 
 
 
