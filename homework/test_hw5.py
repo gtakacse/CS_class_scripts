@@ -85,7 +85,7 @@ def func_test(input, output, function):
 
 def get_stats(scores):
     total = 20
-    print('Summary:\n{} out of {}: {}%'.format(scores, 9, round(scores/total*100),2))
+    print('Summary:\n{} out of {}: {}%'.format(scores, total, round(scores/total*100),2))
     print('='*56)
     print('*'*56)
     print('='*56)
