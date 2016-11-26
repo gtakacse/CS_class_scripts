@@ -16,24 +16,19 @@ s = 'Nem nekünk való az. Mi gazdagok vagyunk és főrangúak. Atyám zászlós
 # A split method segítségével bontsd az s2 változóban szereplő szöveget mondatokra. Az eredményt mentsd el a sentences változóban.
 
 # 3)
-# A split miatt marad egy üres string a sentences lista végén. Ezt vedd ki, úgy hogy végigmész for ciklussal a
-# sentences változó minden elemén és ha valamelyik elem értéke egyenlő az üres stringgel (i.e. ''), akkor azt az
-# elemet hozzáfűzöd a sentences2 listához, amit lent üres listaként inicializáltam.
+# A split miatt marad egy üres string a sentences lista végén. Ezt próbáljuk kiküszöbölnöm a sentences2 váltözóban.
+# Lent inicializáltam a sentences2 változót üres listaként. A feladatod az lesz, hogy menj végig for loop
+# segítségével sentences minden egyes elemén és ha valamelyik elem értéke nem üres string (i.e. ''), akkor azt az
+# elemet fűzd hozzá a sentences2 listához.
 sentences2 = []
 
 # 4)
-# Az sentences2 változó mondataiból (a sentences egy stringeket tartalmazó lista kell legyen; ez a 2) feladatban kért split methodból következik) vedd ki a pontokat, vagyis cseréld ki a pontokat semmire (i.e. ''-re).
-# Hint: for ciklussal tudsz végigmenni a lista mondatain. 
-# A módosított mondatokat pedig fűzzd hozzá sents_without_period üres listához, amit lent találsz.
-sents_without_period = []
-
-# 5)
-# Bonstd a sents_without_period változó mondatait szavakra, és az eredményt mentsd el a words_sents változóba. A words_sents tehát egy lista, amely mondatoknak megfelelő listákat tartalmaz, amelyekben az egyes szavak vannak.
+# Bonstd a sentences2 változó mondatait szavakra, és az eredményt mentsd el a words_sents változóba. A words_sents tehát egy lista, amely mondatoknak megfelelő listákat tartalmaz, amelyekben az egyes szavak vannak.
 # Tehát a következő absztrakt feladatot kell végrehajtani:
 # ['első mondat', 'második modat'] -> [['első', 'mondat], ['második', 'mondat]]
 # Hint: minden a listában szereplő mondaton for ciklussal tudsz végigmenni, a split method segítségével pedig szavakra tudok őket szedni.
 
-# 6)
+# 5)
 # Ha megnézed a words_sents változó értékét, láthatod, hogy a vesszők a szóalak részeként kerültek bele. Javítsuk ezt
 #  úgy ki, hogy a words_sents2 új változóhoz hozzáadjuk a vessző szempontjából már kijavított mondatokat.
 # Hint: Mivel a replace method csak stringeken és nem listákon működik, ezért két for ciklust kell használni,
@@ -52,7 +47,7 @@ print(l2) # a folyamat végén l2 értéke: [[2, 3], [4, 5]]
 
 words_sents2 = []
 
-# 7)
+# 6)
 # Csinálj egy egyszerű szótárt az s2 váltzóból (egy listát, amely a szövegben előforduló szavakat tartalmazza egyettlen egyszer egyszer). A szólistát mentsd el a vocab változóban, amelyet lent üres listaként inicializáltam neked. A
 # szóalakokat úgy add hozzá a vocab változóhoz, hogy nem tartalmaz vesszőt vagy pontot.
 # Hint: Az in (tagadása a not in) operátor segítségével tudod megnézni, hogy egy elem része-e egy listának. Tehát ha a szöveg egy szava nem része a vocab listának, akkor és csakis akkor kell hozzáadni a vocab listához.

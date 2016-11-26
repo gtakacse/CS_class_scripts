@@ -20,12 +20,6 @@ def main():
                       ' ott a high life tündérvilága, az udvar olympja',
                       ' ez a mi versenypiacunk']
 
-    sents_without_period_sol = ['nem nekünk való az',
-                                ' mi gazdagok vagyunk és főrangúak',
-                                ' atyám zászlósúr, s a magyarországi három leggazdagabb birtokosok egyike',
-                                ' az ő egyetlen leányának más pályát nyitott a sors vágyai kielégítésére',
-                                ' ott a high life tündérvilága, az udvar olympja',
-                                ' ez a mi versenypiacunk']
 
     words_sents_sol = [['nem', 'nekünk', 'való', 'az'],
                        ['mi', 'gazdagok', 'vagyunk', 'és', 'főrangúak'],
@@ -116,11 +110,10 @@ def main():
     file = find_file()
     modul = load_modul(file)
     scores = 0
-    total_score=7
+    total_score=6
     scores += test_variables(modul.s2, s2_sol, 's2')
     scores += test_variables(modul.sentences, sentences_sol, 'sentences')
     scores += test_variables(modul.sentences2, sentences2_sol, 'sentences2')
-    scores += test_variables(modul.sents_without_period, sents_without_period_sol, 'sens_without_period')
     scores += test_variables(modul.words_sents, words_sents_sol, 'word_sents')
     scores += test_variables(modul.words_sents2, words_sents2_sol, 'words_sents2')
     scores += test_variables(modul.vocab, vocab_sol, 'vocab')
