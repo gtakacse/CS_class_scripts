@@ -48,7 +48,7 @@ print(l2) # a folyamat végén l2 értéke: [[2, 3], [4, 5]]
 words_sents2 = []
 
 # 6)
-# Csinálj egy egyszerű szótárt az s2 váltzóból (egy listát, amely a szövegben előforduló szavakat tartalmazza egyettlen egyszer egyszer). A szólistát mentsd el a vocab változóban, amelyet lent üres listaként inicializáltam neked. A
+# Csinálj egy egyszerű szótárt az s2 váltzóból (egy listát, amely a szövegben előforduló szavakat tartalmazza egyetlen egyszer). A szólistát mentsd el a vocab változóban, amelyet lent üres listaként inicializáltam neked. A
 # szóalakokat úgy add hozzá a vocab változóhoz, hogy nem tartalmaz vesszőt vagy pontot.
 # Hint: Az in (tagadása a not in) operátor segítségével tudod megnézni, hogy egy elem része-e egy listának. Tehát ha a szöveg egy szava nem része a vocab listának, akkor és csakis akkor kell hozzáadni a vocab listához.
 vocab = []
