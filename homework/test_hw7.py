@@ -144,7 +144,7 @@ def test_mario(modul):
         mistakes += feedback(t[0], t[1], printed, pprint=True)
         
     if mistakes == 0:
-        'Great job! Your mario piramids look awesome. Your function works as intended!'
+        'Great job! Your mario pyramids look awesome. Your function works as intended!'
     else:
         'Keep trying!'
             
