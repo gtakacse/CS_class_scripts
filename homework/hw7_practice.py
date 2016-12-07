@@ -34,6 +34,7 @@
 #
 #'''
 
+# 4)
 # A sent változó és a korábban inicializált remove_vowels funkció felhasználásával hozz létre egy olyan változót, amely listában sent szavait tárolja magánhangzók nélkül. A lista neve legyen msh_szavak.
 # Vigyázz arra, hogy írásjelek ne kerüljenek az msh_szavak elemei között, illetve hogy a listában csak kisbetűs alakok szerepeljenek. A kötőjeles alakokat az egyszerűség kedvéért kezeld külön szavakként, pl. a 'végre-valahára' szó 'vgr' és 'vlhr' stringekként kerüljön be a listába.
 
