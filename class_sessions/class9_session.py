@@ -115,12 +115,13 @@ import matplotlib.pyplot as plt
 x= list(lang_dict.values())
 bins=100
 plt.hist(x,bins,range=[0,100])
-plt.title('Number of speakers of endangered languages')
+plt.title('Number of endangered languages with less than 100 speakers', fontstyle='oblique', fontsize=12, fontweight='bold')
+plt.xticks(list(range(0,110,10)))
 plt.xlabel('number of speakers')
+plt.ylabel('number of languages')
+plt.grid('on')
 plt.show()
 
-
-f.close()
 
 
 
